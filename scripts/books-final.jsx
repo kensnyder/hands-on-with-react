@@ -12,7 +12,7 @@ var Book = React.createClass({
     // So if a parent specifies <Book name="foo" /> then this.props.name === "foo"
     var book = this.props.book;
     return (
-      <tr key={book.id}>
+      <tr>
         <td>{book.title}</td>
         <td>{book.author}</td>
         <td>{book.holder}</td>
@@ -149,7 +149,7 @@ var BookList = React.createClass({
               And return JSX pseudo HTML from a callback!
             */}
             {this.state.books.map(function(book) {
-              return <Book book={book} />
+              return <Book key={book.id} book={book} />
             })}     
         </table>
         <hr />
