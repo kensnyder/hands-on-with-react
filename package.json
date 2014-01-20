@@ -1,0 +1,11 @@
+{
+  "name": "react-books",
+  "description": "Book checkout system for React JS",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "~3.4.8",
+    "socket.io": "~0.9.16",
+    "nodemon": "~1.0.12"
+  },
+  "devDependencies": {}
+}

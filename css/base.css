@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  font-family: Arial;
+  padding: 4px 10px;
+}
+th {
+  font-weight: bold;
+}
+td {
+  border: 1px solid #bbb;
+}
+tbody tr:nth-child(2n+1) td {
+  background-color: #eee;
+}
+a {
+  margin-right: 1em;
+}
