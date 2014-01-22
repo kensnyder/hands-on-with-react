@@ -10,7 +10,9 @@ These files are used for the "Hands On with React" presentation for UtahJS on Ja
 
 ```
 npm install
+npm install -g nodemon
 nodemon server.js
+// or just `node server`
 ```
 
 Then visit [http://localhost:3000/](http://localhost:3000/). It should say that ExpressJS and socket.io are working.
